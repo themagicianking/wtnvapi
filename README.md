@@ -1,24 +1,41 @@
-# README
+# Welcome to Night Vale API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![ruby on rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-Things you may want to cover:
+This is an API for Welcome to Night Vale I am developing using the podcast's RSS feed.
 
-* Ruby version
+## Installation
 
-* System dependencies
+1. Clone the repo to your local machine.
+2. Navigate into the project's base directory and run `bin/rails server` to start the server.
 
-* Configuration
+## Usage
 
-* Database creation
+This API is currently not usable.
 
-* Database initialization
+Example episode JSON objects are structured like this:
 
-* How to run the test suite
+    {
+      bonus: false,
+      duration: "21:02",
+      number: "1",
+      summary: "Pilot Episode. A new dog park opens in Night Vale. Carlos, a scientist, visits and discovers some interesting things. Seismic things. Plus, a helpful guide to surveillance helicopter-spotting.",
+      title: "Pilot"
+    }
 
-* Services (job queues, cache servers, search engines, etc.)
+## Endpoints
 
-* Deployment instructions
+- Episodes
 
-* ...
+## Testing
+
+This project utilizes Ruby on Rail's built in test functions for each created model.
+
+## To Do
+
+*To do list items will go here.*
+
+## Reference
+
+- This project uses [Welcome to Night Vale's RSS feed](https://feeds.nightvalepresents.com/welcometonightvalepodcast).
+````
